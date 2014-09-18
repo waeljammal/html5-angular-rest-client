@@ -1,0 +1,18 @@
+<input type="text" ng-model="nameFilter" placeholder="Search..."/>
+<table>
+    <thead>
+    <tr><th colspan="4">Skills</th></tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="skill in skillsList | filter: searchFilter">
+        <td>{{$index + 1}}</td>
+        <td>
+            <a href="#/skill/{{skill.id}}">
+                {{skill.title}}
+            </a>
+        </td>
+        <td>{{driver.Constructors[0].name}}</td>
+        <td>{{driver.points}}</td>
+    </tr>
+    </tbody>
+</table>

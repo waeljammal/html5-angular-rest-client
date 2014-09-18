@@ -1,0 +1,17 @@
+{
+    "name": "skills/client",
+    "type": "library",
+    "description": "Skills - Example",
+    "keywords": ["rest, angularjs"],
+    "homepage": "https://github.com/waeljammal",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Wael Jammal",
+            "email": "waeljammal@msn.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    }
+}

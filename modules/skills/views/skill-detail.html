@@ -1,0 +1,16 @@
+<section id="main">
+    <a href="#/skills"><- Back to skills list</a>
+    <table>
+        <thead>
+        <tr><th colspan="4" class="title">Skill Levels In {{skill.title}}</th></tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="level in skill.levels | filter: searchFilter">
+            <td>{{$index + 1}}</td>
+            <td>
+                {{level.title}}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</section>
